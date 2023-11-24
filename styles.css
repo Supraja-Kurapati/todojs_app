@@ -1,0 +1,201 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+
+}
+.header{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.head{
+    margin-left: 30px;
+}
+ h1{
+    display: inline-block;
+    font-size: 50px;
+} 
+#list{
+    font-size: 32px;
+}
+.nav{
+    margin-right: 130px;
+}
+.button{
+    display: flex;
+}
+#plus{
+    height: 30px;
+    width: 30px;
+}
+.additem{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.sec{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 90vw;
+    margin-left: 50px;
+}
+.notext{
+margin:  30px auto;
+}
+
+/* 2nd interface*/
+.parentinterphase2{
+    display: flex;
+    position: fixed;
+    left: 10vw;
+    top: 200px;
+    right: 10vw;
+}
+.interface2{
+    height: 170px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    color: orangered;
+    margin: auto auto;
+    position: static;
+    position: relative;
+    display: none;
+
+}
+.addList{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+label{
+    position: absolute;
+    left: 40px;
+}
+input[type="text"]{height: 25px;border: 1px solid orangered; box-shadow: 0px 1px 5px 1px orangered;}
+.buttons ,.btns{
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+}
+button{
+    width: 60px;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid orangered;
+}
+
+.blur{
+    filter: blur(8px);
+}
+
+.box{
+    box-sizing: border-box;
+    padding-top: 10px;
+    height: 270px;
+    width: 200px;
+    background-color: white;
+    color: orangered;
+    border-radius: 10%;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+.back{
+    display: block;
+    /*height: fit-content;*/
+    width: auto;
+}
+.text{
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#plus2{
+    height: 30px;
+    width: 30px;
+    padding-top: 10px;
+}
+.upperbar{
+    box-sizing: border-box;
+    padding-top: 30px;
+    width: 100vw;
+    height: 100px;
+    display: none;
+    justify-content: space-around;
+}
+.deleteclass img{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 60px;
+}
+.interface3{
+    display: none;
+}
+.Addbtn img{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.todoDiv{
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+}
+.rowtext{
+    color: black;
+}
+.markdown{
+    display: flex;
+}
+.linethrough{
+    text-decoration: line-through;
+    color: red;
+}
+
+.parentinterphase3{
+    display: flex;
+    position: fixed;
+    left: 10vw;
+    top: 200px;
+    right: 10vw;
+}
+.interface3{
+    height: 170px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    color: orangered;
+    margin: auto auto;
+    position: static;
+    position: relative;
+    display: none;
+
+}
+.addItem{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+
+

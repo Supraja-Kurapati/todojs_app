@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!--1st interface-->
+    <div>
+      <div class="header">
+        <div class="head">
+          <h1>Tasks</h1>
+          <span id="list"> List</span>
+        </div>
+        <div class="nav" onclick="popup1()">
+          <div class="button">
+            <img src="./plus.png" id="plus" />
+            <div class="additem">Add Item</div>
+          </div>
+        </div>
+      </div>
+      <nav>
+      <div class="upperbar">
+        <div class="back" id="back"><h5>Back</h5></div>  <div class="text"></div>              <img src="./plus.png" id="plus" onclick="popup1()" />
+
+    </div>
+    </nav>
+    
+    
+
+      <section class="sec">
+        <div class="notext">No items in the todo list</div>
+      </section>
+    </div>
+  </div>
+
+    <!--2nd interface-->
+    <div class="parentinterphase2">
+    <div class="interface2">
+      <div class="addList">
+        <div><label>ADD New List</label></div><br>
+        <input type="text" name="addlist" id="addpara" autocomplete="off" maxlength="12"/>
+      </div>
+      <div class="buttons">
+        <button class="addbutton" onclick="popup2()">Add</button>
+        <button class="closebutton">Close</button>
+      </div>
+    </div>
+  </div>
+
+    <div class="parentinterphase3">
+      <div class="interface3">
+        <div class="addItem">
+          <div><label>ADD New Item</label></div><br>
+          <input type="text" name="addItem" id="inputText" autocomplete="off" maxlength="12"/>
+        </div>
+        <div class="btns">
+          <button class="Itembtn">Add</button>
+          <button class="close2">Close</button>
+        </div>
+      </div>
+    </div>
+  
+
+  </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
